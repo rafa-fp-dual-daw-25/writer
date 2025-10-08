@@ -41,6 +41,13 @@ public class Main {
                     listFiles();
                 }
                 break;
+            case 5:
+                //codigo
+                break;
+            case 0:
+                System.out.println("Salida confirmada.");
+                sc.close();
+                break;
             default:
                 System.out.println("Opción no válida");
         }
